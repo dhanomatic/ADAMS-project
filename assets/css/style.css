@@ -93,7 +93,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -588,7 +588,7 @@ section {
 
 
 .counts {
-  background: url("../img/counts-bg.jpg") center center no-repeat;
+  background: url("../img/client-img/doctor05.jpeg") center center no-repeat;
   background-size: cover;
   padding: 10px 0 10px 0;
   position: relative;
