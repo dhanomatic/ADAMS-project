@@ -326,9 +326,15 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 64vh;
+  /* height: 64vh; */
   background: #f9f9f9;
   /* margin-top: 1em; */
+}
+/* Media query for screens larger than 768px */
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 64vh;
+  }
 }
 
 #hero .container {
@@ -1520,7 +1526,7 @@ section {
 
 .ticker-container {
   overflow: hidden;
-  background-color: #243c71;
+  /* background-color: #243c71; */
   color: white;
 }
 
